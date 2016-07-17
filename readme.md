@@ -11,5 +11,6 @@ $ curl -POST http://localhost:8080/oauth/token -d grant_type=password -d usernam
 
 
 curl -H "Authorization: Bearer 8694b4e3-3470-4847-a99a-b56aa7c36a53" http://localhost:8080/person
+
 curl -H "Authorization: Bearer 8694b4e3-3470-4847-a99a-b56aa7c36a53" http://localhost:8080/person/me
 
